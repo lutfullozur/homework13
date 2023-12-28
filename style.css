@@ -4,7 +4,7 @@
 .left{
     border: 1px solid black;
     width: 300px;
-    height: 720px;
+    height: 724px;
     background-color: black;
     color: white;
     padding: 0px;
@@ -57,6 +57,9 @@ img{
     width: 300px;
     height: 300px;
 }
+.panda2:hover{
+    opacity: 0,7;
+}
 .panda{
     display: flex;
     margin-left: 120px;
@@ -65,9 +68,6 @@ img{
 .items{
     padding: 10px;
 }
-.insta{
-    background-color: rgb(0, 0, 0);
-}
-.insta:hover{
-    background-color: gray;
+.items:hover{
+    opacity: 0.7;
 }
